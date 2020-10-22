@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OIB TEST LABORATORY#4</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <button class="sin">SIGN IN</button>
+            <button class="sup">REGISTRATION</button>
+        </header>
+        <h2>SIGN IN</h2>
+        <fieldset>
+            <legend>INFORMATION PANEL</legend>
+            <label>LOGIN:</label>
+            <input id="username"><br><br>
+            <label>PASSWORD:</label>
+            <input type="password" id="password"><br><br>
+            <div>
+                <input class="signin" type="submit" value="ENTRY">
+                <input class="forgot" type="submit" value="RESET PASSWORD"></input>
+                <button onclick="refresh()">REFRESH CONSOLE</button>
+            </div>
+            <ul id="error"></ul>
+        </fieldset>
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>
